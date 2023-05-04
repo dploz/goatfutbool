@@ -5,12 +5,12 @@ app=Flask(__name__)
 
 @app.route("/")
 def incio():
-    return render_template("GOATFUTBOOL [CODESPACES]/index.html")
+    return render_template("/index.html")
 
 
 @app.route("/libros")
 def libros():
-    return render_template("GOATFUTBOOL [CODESPACES]/libros.html")
+    return render_template("/libros.html")
 
 
 
