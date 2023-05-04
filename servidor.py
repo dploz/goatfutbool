@@ -8,7 +8,7 @@ def incio():
     return render_template("/index.html")
 
 
-@app.route("/libros")
+@app.route("sitio/libros")
 def libros():
     return render_template("/libros.html")
 
